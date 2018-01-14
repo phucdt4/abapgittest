@@ -4,7 +4,7 @@ import jenkins.model.*
 node {
 	def HOST = "10.86.87.68"
 	def CREDENTIAL = "IDS"
-	def PACKAGE = '''$TEST_GIT'''
+	def PACKAGE = '''$TEST_GIT_ABAP'''
 	def COVERAGE = 80
 	
     stage('Preparation') {
