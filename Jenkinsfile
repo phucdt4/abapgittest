@@ -11,7 +11,7 @@ node {
         deleteDir()
         git poll: true, branch: 'master', url:'https://github.com/phucdt4/abapgittest.git'
 		dir('sap-pipeline') {
-			bat "git clone https://github.com/pacroy/abap-ci-postman.git ."
+			bat "git clone https://github.com/phucdt4/abap-postman.git ."
 		}
     }
     
